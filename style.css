@@ -1,0 +1,121 @@
+/*body
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+#Entrance
+{
+    margin-left: 15px;
+}
+
+#Hall
+{
+    margin-left: 15px;
+}
+
+#Bedroom
+{
+    margin-left: 15px;
+}
+
+#Garden
+{
+    margin-left: 15px;
+}
+
+
+.Venster .Inhoud{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -128px -138.5px;
+    background: linear-gradient(yellow, red);;
+    background: rgba(240,240,253,0.90);
+    padding: 22px 32px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+    -box-shadow: 0 0 18px rgba(0, 0, 0, 0.9);
+}
+.Venster .Inhoud{
+  position: fixed;
+  top: 0; left: 0; bottom: 0; right: 0;
+  margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(yellow, red);
+     
+}
+*/
+
+body {
+    background-image: url("http://www.axsysnav.eu/wp-content/uploads/2014/07/space.jpg");
+    color: white;
+    text-align: center;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+
+#wrapper
+{
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    width: 825px;
+    height: 330px;
+}
+
+.venster {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.close {
+    background: red;
+    color: white;
+    position: absolute;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    margin-top: -10px;
+    margin-left: 728px;
+}
+
+.close:hover {
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.inhoud {
+    margin: 20px;
+    margin-left: 420px;
+    margin-right: 400px;
+    padding: 20px 20px 10px 20px;
+    border-radius: 50px;
+    background: linear-gradient(red, white, white, blue);
+}
+
+.validator
+{
+
+    display: block;  
+    color: white;
+}
+
+footer
+{
+    text-align: center;
+}
